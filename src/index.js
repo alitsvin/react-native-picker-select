@@ -189,6 +189,8 @@ export default class RNPickerSelect extends PureComponent {
                 selectedItem: prevState.items[index],
             };
         });
+        
+        this.togglePicker(true);
     }
 
     onOrientationChange({ nativeEvent }) {
